@@ -17,3 +17,5 @@ parts:
 apps:
   downbook:
     command: downbook
+    plugs:
+      - network

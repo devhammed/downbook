@@ -1,13 +1,17 @@
 {
   "name": "downbook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Download programming ebooks for free!",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ebooks", "download", "request"],
+  "keywords": [
+    "ebooks",
+    "download",
+    "request"
+  ],
   "author": "Hammed Oyedele <itz.harmid@gmail.com>",
   "license": "MIT",
   "dependencies": {

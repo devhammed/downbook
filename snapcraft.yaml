@@ -1,0 +1,19 @@
+name: downbook
+version: 1.0.1
+summary: Download your favorite Programming Ebooks for FREE!
+description: |
+  Search a book to Download:-
+    $ downbook SEARCH_QUERY
+
+base: core18
+confinement: strict
+
+parts:
+  downbook:
+    plugin: nodejs
+    source-type: git
+    source: https://github.com/devhammed/downbook
+
+apps:
+  downbook:
+    command: downbook
